@@ -1,0 +1,142 @@
+body
+{
+    font-family: "Roboto", "Open Sans", sans-serif;
+    background-color: #1e202b; 
+   
+}
+.home
+{
+    background-image: url(../images/banner.png);
+    min-height: 350px;
+    background-size: cover;
+    
+}
+
+.desc p
+{
+    font-size: 12px;
+}
+
+.navbar-nav .nav-item
+{
+   width: 20%;
+   height: 20%;
+   
+
+}
+#livecameras
+{
+    
+    width: 23%;
+   height: 23%;
+}
+
+.navbar-nav .nav-link
+{
+    border: 2px solid transparent;
+    font-size: 14px;
+    transition: all 0.5;
+    border-radius: 30px;
+     padding: 5px 25px;
+    color: white;
+}
+
+.navbar-nav .nav-link:hover,.navbar-nav .active
+{
+    border: 2px solid #009ad8;
+    color: #009ad8;
+    
+}
+.navbar-toggler-icon
+{
+    background: none;
+    border: 2px solid transparent;
+    color: white;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.form-control
+{
+    border-radius: 30px;
+    background-color: #1e202b;
+    border: 2px solid #1e202b;
+}
+
+
+.find-location input[type="text"]
+{
+    padding: 10px 50px 20px 10px;
+    
+}
+
+.find-location button
+{
+    
+    background-color: #009ad8;
+    border-radius: 40px;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 40;
+    padding-right: 40;
+
+}
+
+.today-head
+{
+    background: rgba(0, 0, 0, 0.1);
+    
+}
+
+
+.today-bg
+{
+    background-color: #323544;
+    
+    
+}
+
+.tomm-bg
+{
+    background-color: #262936;
+}
+
+.tomm-head
+{
+    background-color: #222530;
+}
+
+.after-head
+{
+    background-color: #2d303d;
+}
+
+.after-info
+{
+    background-color: #1e202b;
+}
+
+.home .weather-container
+{
+    z-index: 9999999999999999999999;
+}
+
+.today-info .degree
+{
+    
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.weatherCurrentState,.tomm-weather-state,.after-weather-state
+{
+    color: #009ad8;
+}
+.today-info .city,.tomm-degree2,.after-degree2
+{
+    color: #bfc1c8;
+}
+

@@ -1,0 +1,93 @@
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="position-relative">
+
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container p-3">
+                <a class="navbar-brand text-white text-decoration-none d-flex align-items-center" href="#">
+                    <img src="images/logo.png" alt="">
+                    <div class="desc ms-3 mt-3 pt-1">
+                        <h6>Weather</h6>
+                        <p>tag line goes here</p>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 w-75">
+                        <li class="nav-item me-3 text-center ">
+                            <a class="nav-link active " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item me-3 text-center">
+                            <a class="nav-link " href="#">news</a>
+                        </li>
+                        <li class="nav-item me-3 text-center " id="livecameras">
+                            <a class="nav-link " href="#">live cameras</a>
+                        </li>
+                        <li class="nav-item me-3 text-center">
+                            <a class="nav-link " href="#">photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-center" href="#">contacts</a>
+                        </li>
+
+
+                </div>
+            </div>
+        </nav>
+        <div class="home overflow-hidden">
+            <div class="container mt-5">
+                <form class="position-relative find-location">
+                    <input type="text" placeholder="find your location..." id="search" class="form-control w-100 m-auto ">
+                    <button type="button" class="btn btn-info position-absolute text-white">find</button>
+                </form>
+            </div> 
+        </div>
+        <div class="container weather-container text-white position-absolute top-50 start-50 translate-middle-x mt-5">
+            <div class="row" id="myRow">
+                <div class="col-md-4 p-0 today-bg">
+
+                </div>
+
+                <div class="col-md-4 p-0 tomm-bg" id="tommforecast">
+
+                </div>
+
+                <div class="col-md-4 p-0 after-bg" id="afterforecast">
+
+                </div>
+            </div>
+
+        </div>
+        
+
+    </header>
+
+    <!-- <footer>
+        <div class="container">
+            <form class="position-relative find-location">
+                <input type="text" placeholder="find your location..." class="form-control w-100 m-auto ">
+                <button type="button" class="btn btn-info position-absolute text-white">subscribe</button>
+            </form>
+        </div>
+
+    </footer> -->
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
